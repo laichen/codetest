@@ -1,0 +1,26 @@
+[2022-08-15 05:01:48] [ERROR] >>>  Main program error:
+[2022-08-15 05:01:48] [ERROR] >>>  lists_to_excel() takes 8 positional arguments but 16 were given
+[2022-08-15 05:01:48] [ERROR] >>>  Traceback (most recent call last):
+  File "E:\code\Xray_W_wire.py", line 111, in main
+    col_listb,'column-b', df_colb,'df_col-b', row_listb,'row-b', df_rowb,'df_row-b')
+TypeError: lists_to_excel() takes 8 positional arguments but 16 were given
+
+[2022-08-15 07:22:35] [ERROR] >>>  Main program error:
+[2022-08-15 07:22:35] [ERROR] >>>  [Errno 13] Permission denied: './Xray pointer curve.xlsx'
+[2022-08-15 07:22:35] [ERROR] >>>  Traceback (most recent call last):
+  File "E:\code\Xray_W_wire.py", line 112, in main
+    column_b=col_listb, df_col_b=df_colb, row_b=row_listb, df_row_b=df_rowb)
+  File "E:\code\Xray_W_wire.py", line 65, in lists_to_excel
+    df.to_excel(filename, sheet_name=sheetname)
+  File "C:\Users\dx.lai\Anaconda3\lib\site-packages\pandas\core\generic.py", line 2291, in to_excel
+    storage_options=storage_options,
+  File "C:\Users\dx.lai\Anaconda3\lib\site-packages\pandas\io\formats\excel.py", line 835, in write
+    writer, engine=engine, storage_options=storage_options
+  File "C:\Users\dx.lai\Anaconda3\lib\site-packages\pandas\io\excel\_xlsxwriter.py", line 199, in __init__
+    engine_kwargs=engine_kwargs,
+  File "C:\Users\dx.lai\Anaconda3\lib\site-packages\pandas\io\excel\_base.py", line 926, in __init__
+    path, mode, storage_options=storage_options, is_text=False
+  File "C:\Users\dx.lai\Anaconda3\lib\site-packages\pandas\io\common.py", line 711, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: './Xray pointer curve.xlsx'
+

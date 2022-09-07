@@ -1,0 +1,1 @@
+[2022-08-17 03:08:53] [WARNING] >>>  TiffPage 0: TypeError: read_bytes() missing 3 required positional arguments: 'dtype', 'count', and 'offsetsize'

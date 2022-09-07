@@ -1,0 +1,1 @@
+nuitka --standalone --mingw64 --show-memory --show-progress --nofollow-imports --plugin-enable=pyqt5 --plugin-enable=numpy --include-qt-plugins=sensible,styles --follow-import-to=need --output-dir=o controller.py
